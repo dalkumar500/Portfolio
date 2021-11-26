@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+       <title>Dalwinder's Portfolio</title>
+         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</head>
+    <body style="background-color:rgb(30, 17, 104);"> 
+ <body class="">
+            
+              <canvas id="Hello" width="150" height="625" style="width: 150px; height: 625px;"></canvas>
+              <!-- header -->
+              <div class="header header--animate"style="top: 100px;">
+                <div class="container text-vertical-center name">
+                  <h1 id="namehead" style="font-size: 500%; letter-spacing: -2px;color: white;" >Dalwinder Kumar</h1>
+                  <h3 id="namehead" style="font-size: 200%;color: rgb(189, 47, 218);">SOFTWARE DEVELOPER</h3>
+                </div>
+                <!-- buttons -->
+                <div class="buttons borderless">
+              <button type="button" class="btn" data-toggle="modal" data-target=".bd-about-modal-lg" style="color:red;">ABOUT|</button>
+             <button type="button" class="btn" data-toggle="modal" data-target=".bd-projects-modal-lg" style="color:rgb(44, 218, 189);">PROJECTS |</button> 
+              <button type="button" class="btn" data-toggle="modal" data-target=".bd-contact-modal-lg" style="color:rgb(85, 238, 25);">CONTACT</button>
+                </div>
+              </div>
+    
+                <!-- skill modal -->
+                  <div class="modal fade bd-about-modal-lg" tabindex="-1" role="dialog" aria-labelledby="About" style="display: none;" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>About Me</h3>
+                          </div>
+                          <div class="modal-body aboutbody">
+                            I am dalwinder Kumar and I have learned these skills from Eleven Fifty Academy .<br>
+                            My Skills include:</br>
+                            <ul>
+                              <li>C#</li>
+                              <li>HTML5 &amp; CSS3</li>
+                             <li>Git</li>
+                             <li>Visual Studio</li>
+                             <li>Agile</li>
+                            <li>API</li>
+                            <li>MVC</li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" id="closeBtn" class="btn text-center" data-dismiss="modal" style="background-color: #041c44; color: white;">Close</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                <!-- projects modal -->
+                    <div class="modal fade bd-projects-modal-lg" tabindex="-1" role="dialog" aria-labelledby="About" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3>Projects</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-body">
+                                    <div class="pictures">
+                                        <img class="card-img-top" src="Pictures/Storefront.png" alt="Card image cap">
+                                        <div class="card-body">
+                                          
+                                          <a href="https://dalkumar500.github.io/furnitureshop/" class="btn btn-light" target="_blank">Deployed Link</a>
+                                         
+                                          
+                                        </div>
+                                      </div>
+                                <div class="card mb-3">
+                                   <center> <img  src="Pictures/Htmlwork.png" width="400" height="400"></center>
+                                    <div class="card-body">
+                                      
+                                      <a href=" https://dalkumar500.github.io/htmlregisterpage1/" class="btn btn-light" target="_blank">Deployed Link</a>
+                                      
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                     <img  src="Pictures/Screenshot (7).png" alt="Card image cap">
+                                     <div class="card-body">
+                                      <h5 >Group Close Encounter Project.MVC</h5>
+                                       <a href="https://github.com/JuanGomez574/CloseEncounters" class="btn btn-light" target="_blank">Deployed Link</a>
+                                
+                                     </div>
+                                   </div>
+                                  <div class="card mb-3">
+                                      <img class="card-img-top" src="Pictures/Screenshot (5).png" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 >StarInsurance.MVC</h5>
+                                        <a href=" https://github.com/dalkumar500/StarInsurance.MVC" class="btn btn-light" target="_blank">Deployed Link</a>
+                                      
+                                                                       
+                                        
+                                      </div>
+                                    </div>
+                                <div class="card mb-3">
+                                    <img class="card-img-top" src="Pictures/Creature.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 >HTML5 / CSS3 Creature</h5>
+                                      <p>My First creature Picture using by HTML and CSS</p>
+                                      <a href="https://codepen.io/dal500/pen/MWpRJLX" class="btn btn-light" target="_blank">Link to Codepen</a>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" id="closeBtn" class="btn text-center" data-dismiss="modal" style="background-color: #041c44; color: white;">Close</button>
+                                    </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                <!-- contact modal -->
+                      <div class="modal fade bd-contact-modal-lg" tabindex="-1" role="dialog" aria-labelledby="About" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h3>Contact</h3>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="modal-body">
+                                      <div class="container">
+                                          <div class="row">
+                                            
+                                              <div class="control-group">
+                                                <div class="form-group">
+                                                  <label>Name</label>
+                                                  <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name" name="name" style="background-color: #041c44; color: white;" spellcheck="false" data-ms-editor="true">
+                                                  <p class="help-block text-danger"></p>
+                                                </div>
+                                              </div>
+                                              <div class="control-group">
+                                                <div class="form-group">
+                                                  <label>Email Address</label>
+                                                  <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email" name="_replyto" style="background-color: #041c44; color: white;">
+                                                  <p class="help-block text-danger"></p>
+                                                </div>
+                                              </div>
+                                              <div class="control-group">
+                                                <div class="form-group">
+                                                  <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message" name="message" style="background-color: #041c44; color: white;" spellcheck="false" data-ms-editor="true"></textarea>
+                                                  <p class="help-block text-danger"></p>
+                                                </div>
+                                              </div>
+                                              <div class="text-center col-md-12">
+                                                <div id="success"></div>
+                                                <button type="submit" class="btn text-center" id="formbutton" style="background-color: #041c44; color: white;">
+                                                  Send Message
+                                                  </button>
+                                                  <div class="col-md-offset-4">
+                                                 My email address is dalwinder.maniktala@gmail.com
+                                                  </div>
+                                                </div>
+                                              </form>
+                                            </div>
+                                          </div>          
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" id="closeBtn" class="btn text-center" data-dismiss="modal" style="background-color: #041c44; color: white;">Close</button>
+                                        </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+ </body>
+ <html>
+        
+   
